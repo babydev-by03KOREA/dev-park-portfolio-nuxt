@@ -36,7 +36,7 @@ export default defineNuxtConfig({
     ],
     defaultLocale: 'ko', // 접속자 브라우저 언어 감지하게 설정하면 더 좋음
     strategy: 'prefix_and_default', // /ja, /en 이렇게 주소 분리
-    langDir: 'locales', // locales 폴더에 json 파일 넣으면 됨
+    langDir: '~/app/locale',
     detectBrowserLanguage: {
       useCookie: true,
       cookieKey: 'i18n_redirected',
