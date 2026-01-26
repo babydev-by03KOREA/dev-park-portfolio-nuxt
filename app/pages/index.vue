@@ -85,7 +85,7 @@ const skillGroups = [
       <!-- Header -->
       <header class="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
         <div class="space-y-1">
-          <p class="text-sm text-gray-500">Your Name</p>
+          <p class="text-sm text-gray-500">HYEONGJU PARK</p>
           <h1 class="text-2xl sm:text-3xl font-semibold tracking-tight">
             フルスタックエンジニア（プロダクト志向）
           </h1>
@@ -297,9 +297,22 @@ const skillGroups = [
         </UCard>
 
         <p class="text-xs text-gray-500">
-          © {{ new Date().getFullYear() }} Your Name · Built with Nuxt UI · Deployed on Vercel
+          © {{ new Date().getFullYear() }} HYEONGJU PARK · Built with Nuxt UI · Deployed on Vercel
         </p>
       </section>
     </UContainer>
   </div>
 </template>
+<style>
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+* {
+  min-width: 0;
+}
+</style>
