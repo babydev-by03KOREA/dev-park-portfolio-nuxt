@@ -7,8 +7,14 @@ export default defineNuxtConfig({
     '@nuxt/image'
   ],
 
+  nitro: {preset: "vercel"},
+
   devtools: {
     enabled: true
+  },
+
+  colorMode: {
+    preference: "dark"
   },
 
   css: ['~/assets/css/main.css'],
